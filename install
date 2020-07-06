@@ -1,0 +1,6 @@
+#!/bin/bash
+
+path=$(pwd)
+
+cd $path/abs
+sudo pacman -U dealwithit-0.0.1-1-x86_64.pkg.tar.xz
