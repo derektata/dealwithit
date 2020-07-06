@@ -1,6 +1,6 @@
 # dealwithit
 ## What does this script do?
-It prints glasses in the terminal
+It prints shades in the terminal
 
 
         ▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄▄
