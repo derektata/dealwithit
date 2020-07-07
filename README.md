@@ -11,7 +11,7 @@ It prints shades in the terminal
 Add this script to your bin folder, and deal with it.
 
 ### To Install:
-- Arch Users: Type in `./install`, and the script will be added to `/usr/bin/`.
+- Arch Users: Type in `./install`, and pacman will take care of the rest.
 - Everyone else: Move the script to your `/usr/bin`.
 
 ### To Remove:
