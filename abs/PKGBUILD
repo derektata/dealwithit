@@ -6,11 +6,11 @@ pkgdesc="A utility to print glasses in the terminal, deal with it."
 arch=('x86_64')
 url="https://github.com/derektata/dealwithit"
 license=('GPL')
-depends=('bash')
+depends=('sh')
 source=("https://github.com/derektata/$pkgname")
 package() {
         cd "$srcdir"
 	mkdir -p $pkgdir/usr/bin
 	install dealwithit $pkgdir/usr/bin/$pkgname
 }
-md5sums=('0b5e33d4f99476664465f8fe106055a6')
+md5sums=('c4d4709258344a1cb55f34a11a7dba0e')
