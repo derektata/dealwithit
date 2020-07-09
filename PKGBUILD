@@ -6,6 +6,7 @@ pkgdesc="A utility to print shades in the terminal, deal with it."
 arch=('x86_64')
 url="https://github.com/derektata/dealwithit"
 license=('GPL')
+depends=('bash')
 makedepends=('git')
 source=("git+$url")
 md5sums=('SKIP')
