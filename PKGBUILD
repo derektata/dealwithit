@@ -4,7 +4,7 @@ pkgver=r11.868bb18
 pkgrel=1
 pkgdesc="A utility to print shades in the terminal, deal with it."
 arch=('x86_64')
-url="https://github.com/derektata/dealwithit"
+url="https://github.com/derektata/dealwithit-git"
 license=('GPL')
 depends=('bash')
 makedepends=('git')
@@ -13,7 +13,7 @@ md5sums=('SKIP')
 
 package() {
 	echo "$srcdir/$pkgname"
-		cd "$srcdir/$pkgname"
+		cd "$srcdir/$pkgname-git"
 	install -Dm755 dealwithit.sh "$pkgdir/usr/bin/dealwithit"
 	install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname"
 }
