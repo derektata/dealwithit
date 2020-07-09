@@ -22,7 +22,7 @@ To install using pacman, type in:
 
 #### Debian-Based
 
-Manual Installation _(Make sure to update the path)_
+Manual Installation _(Make sure to update the path)_:
 
 `cd dealwithit && sudo cp ~/path/to/dealwithit /usr/bin/`
 ***
@@ -37,5 +37,7 @@ To remove using pacman, type in:
 `sudo pacman -Rns dealwithit`
 
 #### Debian-Based
+
+Manual Removal:
 
 `sudo rm /usr/bin/dealwithit`
