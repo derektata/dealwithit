@@ -14,6 +14,6 @@ md5sums=('SKIP')
 package() {
 	echo "$srcdir/$pkgname"
 		cd "$srcdir/$pkgname-git"
-	install -Dm755 dealwithit.sh "$pkgdir/usr/bin/dealwithit"
+	install -Dm755 dealwithit "$pkgdir/usr/bin/dealwithit"
 	install -Dm644 README.md "$pkgdir/usr/share/doc/$pkgname"
 }
