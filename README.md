@@ -16,6 +16,8 @@ Pipe it into lolcat to add some color `dealwithit | lolcat`
 
 #### Arch-Based
 
+`cd 'Arch Linux'`
+
 To install using pacman, type in:
 
 `sudo pacman -U dealwithit-r11.868bb18-1-x86_64.pkg.tar.xz`
@@ -25,8 +27,8 @@ To install using pacman, type in:
 Manual Installation _(Make sure to update the path)_:
 
 `cd dealwithit && sudo cp ~/path/to/dealwithit /usr/bin/`
-***
 
+---
 
 ## Removal
 
